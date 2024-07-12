@@ -11,7 +11,7 @@ This Flask application fetches user details from Codeforces profiles using web s
 
 
 Install dependencies:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 Usage:
@@ -20,9 +20,10 @@ python app.py
 
 
 Access user details:
-Open your web browser and go to http://localhost:5000/user/<username>, replacing <username> with the Codeforces username.
+Open your web browser and go to ```http://localhost:5000/user/<username>```, replacing ```<username>``` with the Codeforces username.
+
 Example using curl:
-curl http://localhost:5000/user/Adam
+```curl http://localhost:5000/user/Adam```
 
 
 Response:
