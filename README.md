@@ -4,10 +4,11 @@ This Flask application fetches user details from Codeforces profiles using web s
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```
    git clone <repository-url>
    cd codeforces-user-details-scraper
+```
    
 ## Install dependencies:
 ```pip install -r requirements.txt```
