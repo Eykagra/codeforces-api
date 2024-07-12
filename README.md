@@ -10,23 +10,23 @@ This Flask application fetches user details from Codeforces profiles using web s
    cd codeforces-user-details-scraper
 
 
-Install dependencies:
+## Install dependencies:
 ```pip install -r requirements.txt```
 
 
-Usage:
+## Usage: 
 Run the Flask application
 ```python app.py```
 
 
-Access user details:
+## Access user details: 
 Open your web browser and go to ```http://localhost:5000/user/<username>```, replacing ```<username>``` with the Codeforces username.
 
 Example using curl:
 ```curl http://localhost:5000/user/Adam```
 
 
-Response:
+## Response: 
 The server responds with JSON data containing the fetched user details from the Codeforces profile.
 Dependencies
 Flask
