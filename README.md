@@ -27,7 +27,4 @@ Example using curl:
 
 ## Response: 
 The server responds with JSON data containing the fetched user details from the Codeforces profile.
-Dependencies
-Flask
-Requests
-BeautifulSoup4
+
